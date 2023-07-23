@@ -1,18 +1,21 @@
 /**
 Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
 */
 
 body {
   text-align: center;
-  border: 10px;
-  border-radius: 30px;
+  border: 10px solid;
+  border-radius: 30px 30px 30px 30px;
   border-color: gray;
+  margin: 30px auto 30px auto;
+  width: 720px;
+  height: 1115px;
+}
+
+.boredr {
+  border: 10px solid;
+  border-radius: 30px;
+  border-color: orange;
 }
 
 .hero {
@@ -22,11 +25,11 @@ body {
   width: 720px;
   height: 343px;
   flex-shrink: 0;
-  border-radius: 30px 30px 0px 0px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 30px auto -20px auto;
+  margin: 0px auto -20px auto;
+  border-radius: 15px 18px 0px 0px;
 }
 
 h1 {
@@ -94,7 +97,7 @@ End of Hero colum and start of Activivities colum
   height: 100px;
 }
 /**
- The end of Atctivitis and start of The Guinde
+ The end of Atctivitis and start of The Guide
  */
 
 .guide {
@@ -102,9 +105,9 @@ End of Hero colum and start of Activivities colum
   flex-direction: row;
   width: 720px;
   height: 394px;
-  border-radius: 0px 0px 30px 30px;
   background: #6d597a;
-  margin: auto;
+  margin: auto auto 0px auto;
+  border-radius: 0px 0px 15px 15px;
 }
 
 .card {
