@@ -94,7 +94,7 @@ End of Hero colum and start of Activivities colum
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100px;
+  font-size: small;
 }
 /**
  The end of Atctivitis and start of The Guide
